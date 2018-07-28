@@ -1,0 +1,15 @@
+{
+  "branches": [
+    "master",
+    {
+      "name": "beta",
+      "prerelease": true
+    }
+  ],
+  "tagFormat": "${version}",
+  "publish": [
+    "@semantic-release/npm"
+  ],
+  "npmPublish": true,
+  "pkgRoot": "."
+}
